@@ -3,9 +3,13 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridPaintPaletteClipboard
+    - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.PaintableSceneViewGrid
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
@@ -22,8 +26,16 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   sceneClasses:
-    "Assets/\u5834\u666F/\u9078\u55AE.unity":
+    "Assets/\u5834\u666F/\u904A\u6232\u5834\u666F.unity":
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -46,6 +58,26 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 586}
+    - Class: 114
+      Script: {instanceID: 11172}
+    - Class: 114
+      Script: {instanceID: 11460}
+    - Class: 114
+      Script: {instanceID: 11514}
+    - Class: 114
+      Script: {instanceID: 12174}
+    - Class: 114
+      Script: {instanceID: 12872}
+    - Class: 114
+      Script: {instanceID: 13628}
+    - Class: 114
+      Script: {instanceID: 14238}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
@@ -53,6 +85,18 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -537,5 +581,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 20
   scenePathNames:
-  - "Assets/\u5834\u666F/\u9078\u55AE.unity"
-  playerPath: D:/Unity homework/WEB
+  - "Assets/\u5834\u666F/\u904A\u6232\u5834\u666F.unity"
+  playerPath: D:/Unity homework/Unity_HW_20200611/WEB2
